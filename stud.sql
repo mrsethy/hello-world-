@@ -26,3 +26,6 @@ Create table dept
     comm number, 
     hiredate date 
   ); 
+
+select * from dept, emp where d.deptno=e.deptno 
+where loc ='BUSTON'
