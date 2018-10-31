@@ -26,3 +26,6 @@ Create table dept
     comm number, 
     hiredate date 
   ); 
+
+select * from emp where empno=7566; 
+select * from emp where job in ('CLERK','SALESMEN') 
