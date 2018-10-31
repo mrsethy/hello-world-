@@ -1,6 +1,7 @@
 Create table t1
 (
-sid number, 
+sidRollNum Number, 
 sname varchar2 (120) 
 sdob date 
+sdoj date 
 ); 
